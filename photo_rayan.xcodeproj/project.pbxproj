@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		293954922AD3F4DC00BF9853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293954912AD3F4DC00BF9853 /* AppDelegate.swift */; };
-		293954942AD3F4DC00BF9853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293954932AD3F4DC00BF9853 /* SceneDelegate.swift */; };
-		293954962AD3F4DC00BF9853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293954952AD3F4DC00BF9853 /* ViewController.swift */; };
-		293954992AD3F4DC00BF9853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293954972AD3F4DC00BF9853 /* Main.storyboard */; };
+		293954962AD3F4DC00BF9853 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293954952AD3F4DC00BF9853 /* PhotoViewController.swift */; };
 		2939549B2AD3F4DD00BF9853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2939549A2AD3F4DD00BF9853 /* Assets.xcassets */; };
 		2939549E2AD3F4DD00BF9853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2939549C2AD3F4DD00BF9853 /* LaunchScreen.storyboard */; };
+		293954A62AD3F56E00BF9853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293954A52AD3F56E00BF9853 /* SceneDelegate.swift */; };
+		293E77742AD42179000C8990 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293E77732AD42179000C8990 /* PhotoViewModel.swift */; };
+		293E77762AD421F2000C8990 /* LocalDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293E77752AD421F2000C8990 /* LocalDataBase.swift */; };
+		293E77782AD4229B000C8990 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293E77772AD4229B000C8990 /* PhotoModel.swift */; };
+		ECF9516C1933064B3AAB2814 /* Pods_photo_rayan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1242F66F4C948C5B91B4CC /* Pods_photo_rayan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2939548E2AD3F4DC00BF9853 /* photo_rayan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photo_rayan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		293954912AD3F4DC00BF9853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		293954932AD3F4DC00BF9853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		293954952AD3F4DC00BF9853 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		293954982AD3F4DC00BF9853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		293954952AD3F4DC00BF9853 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		2939549A2AD3F4DD00BF9853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2939549D2AD3F4DD00BF9853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2939549F2AD3F4DD00BF9853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293954A52AD3F56E00BF9853 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		293E77732AD42179000C8990 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		293E77752AD421F2000C8990 /* LocalDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataBase.swift; sourceTree = "<group>"; };
+		293E77772AD4229B000C8990 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		2D0387BACE2B6DE80E5C9DF8 /* Pods-photo_rayan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo_rayan.debug.xcconfig"; path = "Target Support Files/Pods-photo_rayan/Pods-photo_rayan.debug.xcconfig"; sourceTree = "<group>"; };
+		3A1242F66F4C948C5B91B4CC /* Pods_photo_rayan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_rayan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6CA841E37E587C082719CC /* Pods-photo_rayan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo_rayan.release.xcconfig"; path = "Target Support Files/Pods-photo_rayan/Pods-photo_rayan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF9516C1933064B3AAB2814 /* Pods_photo_rayan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				293954902AD3F4DC00BF9853 /* photo_rayan */,
 				2939548F2AD3F4DC00BF9853 /* Products */,
+				FAF2578CDDFE2299D60CDCFF /* Pods */,
+				FC7C2D0E527F19B601BB0B2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +67,82 @@
 		293954902AD3F4DC00BF9853 /* photo_rayan */ = {
 			isa = PBXGroup;
 			children = (
-				293954912AD3F4DC00BF9853 /* AppDelegate.swift */,
-				293954932AD3F4DC00BF9853 /* SceneDelegate.swift */,
-				293954952AD3F4DC00BF9853 /* ViewController.swift */,
-				293954972AD3F4DC00BF9853 /* Main.storyboard */,
-				2939549A2AD3F4DD00BF9853 /* Assets.xcassets */,
-				2939549C2AD3F4DD00BF9853 /* LaunchScreen.storyboard */,
+				29DF88E62AD52C600003BCB2 /* App */,
+				29DF88E52AD52C510003BCB2 /* Model */,
+				29DF88E82AD52CC70003BCB2 /* Scene */,
+				29DF88E72AD52C890003BCB2 /* ViewModel */,
+				29DF88E92AD52CEC0003BCB2 /* View */,
+				29DF88EA2AD52D070003BCB2 /* DataBase */,
 				2939549F2AD3F4DD00BF9853 /* Info.plist */,
 			);
 			path = photo_rayan;
+			sourceTree = "<group>";
+		};
+		29DF88E52AD52C510003BCB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				293E77772AD4229B000C8990 /* PhotoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29DF88E62AD52C600003BCB2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				293954912AD3F4DC00BF9853 /* AppDelegate.swift */,
+				293954A52AD3F56E00BF9853 /* SceneDelegate.swift */,
+				2939549C2AD3F4DD00BF9853 /* LaunchScreen.storyboard */,
+				2939549A2AD3F4DD00BF9853 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		29DF88E72AD52C890003BCB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				293E77732AD42179000C8990 /* PhotoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		29DF88E82AD52CC70003BCB2 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				293954952AD3F4DC00BF9853 /* PhotoViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		29DF88E92AD52CEC0003BCB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29DF88EA2AD52D070003BCB2 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				293E77752AD421F2000C8990 /* LocalDataBase.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		FAF2578CDDFE2299D60CDCFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D0387BACE2B6DE80E5C9DF8 /* Pods-photo_rayan.debug.xcconfig */,
+				AE6CA841E37E587C082719CC /* Pods-photo_rayan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC7C2D0E527F19B601BB0B2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A1242F66F4C948C5B91B4CC /* Pods_photo_rayan.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 293954A22AD3F4DD00BF9853 /* Build configuration list for PBXNativeTarget "photo_rayan" */;
 			buildPhases = (
+				3B00ABDD3CFFB5B61A384C50 /* [CP] Check Pods Manifest.lock */,
 				2939548A2AD3F4DC00BF9853 /* Sources */,
 				2939548B2AD3F4DC00BF9853 /* Frameworks */,
 				2939548C2AD3F4DC00BF9853 /* Resources */,
+				37F49E0664E7EA00A5FADDE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +207,70 @@
 			files = (
 				2939549E2AD3F4DD00BF9853 /* LaunchScreen.storyboard in Resources */,
 				2939549B2AD3F4DD00BF9853 /* Assets.xcassets in Resources */,
-				293954992AD3F4DC00BF9853 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37F49E0664E7EA00A5FADDE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photo_rayan/Pods-photo_rayan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photo_rayan/Pods-photo_rayan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-photo_rayan/Pods-photo_rayan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B00ABDD3CFFB5B61A384C50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-photo_rayan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2939548A2AD3F4DC00BF9853 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				293954962AD3F4DC00BF9853 /* ViewController.swift in Sources */,
+				293E77782AD4229B000C8990 /* PhotoModel.swift in Sources */,
+				293E77762AD421F2000C8990 /* LocalDataBase.swift in Sources */,
+				293954962AD3F4DC00BF9853 /* PhotoViewController.swift in Sources */,
+				293E77742AD42179000C8990 /* PhotoViewModel.swift in Sources */,
 				293954922AD3F4DC00BF9853 /* AppDelegate.swift in Sources */,
-				293954942AD3F4DC00BF9853 /* SceneDelegate.swift in Sources */,
+				293954A62AD3F56E00BF9853 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		293954972AD3F4DC00BF9853 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				293954982AD3F4DC00BF9853 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2939549C2AD3F4DD00BF9853 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +398,7 @@
 		};
 		293954A32AD3F4DD00BF9853 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0387BACE2B6DE80E5C9DF8 /* Pods-photo_rayan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,9 +407,10 @@
 				DEVELOPMENT_TEAM = 6SS2S46B2C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = photo_rayan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +428,7 @@
 		};
 		293954A42AD3F4DD00BF9853 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6CA841E37E587C082719CC /* Pods-photo_rayan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,9 +437,10 @@
 				DEVELOPMENT_TEAM = 6SS2S46B2C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = photo_rayan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
